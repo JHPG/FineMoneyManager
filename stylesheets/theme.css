@@ -1,0 +1,427 @@
+
+/*
+ * Start: Theme style from here
+ * Made with love by Aryandhani <http://aryandhani.com/>, <@aryandhani>
+ */
+.side-nav {
+  position: fixed;
+  top: 45%;
+  right: 20px;
+  z-index: 1030;
+}
+@media screen and (max-width: 320px) {
+  .side-nav {
+    display: none;
+  }
+}
+.side-nav ul.nav-side-nav {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.side-nav ul.nav-side-nav > li {
+  display: block;
+  line-height: 1.42857;
+  margin: 0;
+  padding: 8px 0;
+}
+.side-nav ul.nav-side-nav > li > a {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e2e2e2;
+}
+.side-nav ul.nav-side-nav > li > a:hover, .side-nav ul.nav-side-nav > li > a:focus {
+  background: #afafaf;
+  text-decoration: none;
+}
+
+.services-section {
+  background: white;
+  text-align: center;
+  padding: 100px 0;
+}
+.services-section .row.row-padding {
+  padding-top: 40px;
+}
+
+.col-services {
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 800px) {
+  .col-services {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-bottom: 40px;
+  }
+  .col-services:last-child {
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .col-services {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .col-services {
+    width: 100%;
+  }
+}
+
+.img-services {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.img-services.img-margin {
+  margin-top: 14px;
+  margin-bottom: 31px;
+}
+
+.features-section {
+  background: #f3f4f5;
+  text-align: left;
+  padding: 100px 0;
+}
+.features-section .row.row-padding {
+  padding-top: 40px;
+}
+@media screen and (max-width: 800px) {
+  .features-section .row.media-screen-800 {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+.features-section .img-iPhone {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: auto;
+}
+.features-section .img-iPhone.margin-top {
+  top: -40px;
+}
+@media screen and (max-width: 800px) {
+  .features-section .img-iPhone.margin-top {
+    top: 0;
+  }
+}
+.features-section .img-iPhone.margin-top-1 {
+  top: -80px;
+}
+@media screen and (max-width: 800px) {
+  .features-section .img-iPhone.margin-top-1 {
+    top: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .features-section .img-iPhone.margin-screen-800 {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .features-section .img-iPhone {
+    width: 250px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .features-section .img-iPhone {
+    width: 220px;
+    height: auto;
+  }
+}
+.features-section .btn-danger-border {
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dc554f;
+  color: #dc554f;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+.features-section .btn-danger-border:hover, .features-section .btn-danger-border:focus {
+  background: #dc554f;
+  color: white;
+}
+.features-section .btn-app-store .btn.btn-lg, .features-section .btn-app-store .btn-group-lg > .btn {
+  padding: 0;
+}
+.features-section .btn-app-store .btn img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .col-features {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .col-features {
+    width: 90%;
+  }
+}
+.col-features.features-content {
+  padding-top: 100px;
+}
+@media screen and (max-width: 800px) {
+  .col-features.features-content {
+    padding-top: 0;
+  }
+}
+
+.subscribe-section {
+  background: #2e2f41 url(../images/bg-2.png) 0 0 no-repeat;
+  text-align: center;
+  padding: 100px 0;
+  background-size: cover;
+  color: white;
+}
+.subscribe-section .row.row-padding {
+  padding-top: 40px;
+}
+.subscribe-section h2,
+.subscribe-section .h2 {
+  color: white;
+}
+@media screen and (max-width: 320px) {
+  .subscribe-section h2,
+  .subscribe-section .h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .col-subscribe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .col-subscribe {
+    width: 100%;
+  }
+}
+.subscribe-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .subscribe-form.form-inline .form-control {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .subscribe-form .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+.subscribe-description {
+  padding-bottom: 20px;
+}
+
+.footer-section {
+  background: white;
+  text-align: left;
+  padding: 60px 0;
+}
+.footer-section .row.row-padding {
+  padding-top: 40px;
+}
+@media screen and (max-width: 800px) {
+  .footer-section {
+    text-align: center;
+  }
+}
+.footer-section p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .col-footer.col-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.col-footer .fa.fa-heart {
+  color: #fd487d;
+}
+
+.social-media-links {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.social-media-links li {
+  display: inline-block;
+  line-height: 1.42857;
+  margin: 0;
+  padding: 0 3px;
+}
+.social-media-links a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  line-height: 1.82857;
+}
+.social-media-links a:hover, .social-media-links a:focus {
+  background: transparent;
+  color: white;
+  text-decoration: none;
+}
+.social-media-links a.tw {
+  background: #53c3ee;
+}
+.social-media-links a.tw:hover, .social-media-links a.tw:focus {
+  background: #16a7df;
+}
+.social-media-links a.fb {
+  background: #5975b1;
+}
+.social-media-links a.fb:hover, .social-media-links a.fb:focus {
+  background: #3d5281;
+}
+.social-media-links a.pn {
+  background: #d54e55;
+}
+.social-media-links a.pn:hover, .social-media-links a.pn:focus {
+  background: #ad2930;
+}
+
+.addthis_default_style {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+@media screen and (max-width: 800px) {
+  .addthis_default_style {
+    text-align: center;
+  }
+}
+.addthis_default_style li {
+  display: inline-block;
+  line-height: 1.42857;
+  margin: 0;
+  padding: 0;
+}
+.addthis_default_style li:first-child {
+  margin-left: -2px;
+}
+.addthis_default_style a {
+  display: block;
+}
+.addthis_default_style a.addthis_button_facebook_like {
+  position: relative;
+  top: -3px;
+}
+.addthis_default_style a.addthis_button_tweet {
+  width: 80px !important;
+}
+
+.sign-in-up-section {
+  padding: 100px 0;
+}
+.sign-in-up-section .container {
+  max-width: 460px;
+}
+.sign-in-up-section .img-logo {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: auto;
+  margin-bottom: 40px;
+}
+.sign-in-up-section .footer-copyright {
+  color: white;
+}
+.sign-in-up-section .footer-copyright .fa.fa-heart {
+  color: #fd487d;
+}
+
+.sign-in-up-content {
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.sign-in-up-content .sign-in-up-form {
+  padding-top: 10px;
+}
+.sign-in-up-content .sign-in-up-links {
+  position: relative;
+  margin-top: -30px;
+}
+.sign-in-up-content .sign-in-up-links .sep {
+  margin: 0 4px;
+}
+
+
+ /* Bootstrap */
+
+ .jumbotron {
+  padding: 30px 0;
+  margin-bottom: 0;
+  color: #555;
+  /*background: #2e2f41 url(../images/bg-1.png) 0 0 no-repeat;
+  background-size: cover;*/
+  background: #fff;
+  text-align: center;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: #333;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #d7dbde;
+}
+
+
+
+
+
+
+
+
+
+
+
+
