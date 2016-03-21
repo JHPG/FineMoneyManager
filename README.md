@@ -1,2 +1,2 @@
 # FineMoneyManager
-Site institucional
+Landing page
