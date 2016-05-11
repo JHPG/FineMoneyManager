@@ -1,0 +1,32 @@
+{
+  "name": "Simplifica",
+  "version": "2.0",
+  "homepage": "https://github.com/JHPG/FineMoneyManager",
+  "authors": [
+    "Jorge H. P. Garcia <j.hrique@hotmail.com>"
+  ],
+  "description": "Simplifica controle financeiro",
+  "main": "index.html",
+  "keywords": [
+    "fine",
+    "simplifica",
+    "controle",
+    "financeiro",
+    "dinheiro",
+    "economia",
+    "economizar",
+    "gerenciador",
+    "guiabolso",
+    "mint",
+    "mobills",
+    "mobilis"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
