@@ -114,7 +114,7 @@
 }
 @media screen and (max-width: 800px) {
   .features-section .img-iPhone.margin-top {
-    top: 10;
+    top: 0;
   }
 }
 .features-section .img-iPhone.margin-top-1 {
