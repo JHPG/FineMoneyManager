@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="wp-content/plugins/google-sitemap-plugin/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://simplifica.eu/</loc>
+        <lastmod>2016-06-19T19:42:10+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1</priority>
+    </url>
+</urlset>
