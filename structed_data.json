@@ -1,0 +1,39 @@
+[
+  {
+    "@context": "http://schema.org/",
+    "@type": "Organization",
+    "name": "Simplifica",
+    "logo": "http://simplifica.eu/images/logo.png",
+    "image": "http://simplifica.eu/images/logo.png",
+    "url": "http://simplifica.eu",
+    "email": "ola@simplifica.eu",
+    "contactPoint" : [
+      { "@type" : "ContactPoint",
+        "contactType" : "customer service",
+        "email": "ola@simplifica.eu",
+        "url": "https://www.facebook.com/simplifica.eu/"
+      } ],
+    "brand": "Simplifica",
+    "description": "Seu aplicativo gerenciador financeiro gratuito autom&aacute;tico que te ajuda a economizar."
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Simplifica Gerenciador Financeiro",
+    "image": "http://simplifica.eu/images/logo.png",
+    "description": "Seu aplicativo gerenciador financeiro gratuito autom&aacute;tico que te ajuda a economizar.",
+    "brand": {
+      "@type": "Thing",
+      "name": "Simplifica"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "BRL",
+      "price": "0.00",
+      "seller": {
+        "@type": "Organization",
+        "name": "Simplifica"
+      }
+    }
+  }
+]
