@@ -312,6 +312,12 @@
 .social-media-links a.fb:hover, .social-media-links a.fb:focus {
   background: #3d5281;
 }
+.social-media-links a.ld {
+  background: #0077b5;
+}
+.social-media-links a.ld:hover, .social-media-links a.ld:focus {
+  background: #006397;
+}
 .social-media-links a.pn {
   background: #d54e55;
 }
